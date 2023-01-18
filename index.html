@@ -37,8 +37,8 @@
       <div class="box">
         <ul class="list-group">
           <li class="list-group-item">已累计中奖{{data.length}}次
+            <p class="list-group-item">今日中奖{{item['9']}}次</p>
             <div class="input-group mb-3">
-                <p class="list-group-item">今日中奖{{item['9']}}次</p>
               <input type="text" class="form-control" placeholder="手机号" aria-label="Username" aria-describedby="basic-addon1" v-model="phone">
               <button type="button" class="btn btn-primary" @click="search">search</button>
             </div>
